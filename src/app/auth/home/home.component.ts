@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { CoreService } from '../../core/services/core.services';
 import { RouterLink } from "@angular/router";
 import { CommonModule } from '@angular/common';
@@ -14,19 +14,23 @@ import { COMMON_EXPORTS } from '../../core/common-exports.constants';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
 
 
   private coreService: CoreService = inject(CoreService);
   logo: string = 'images/black-theme-my-image.png';
+  n = 5;
 
-  ngOnInit() { }
+  ngOnInit() {
+    
+    console.log(`n value : ${this.n}` )
+   }
 
   routeEmployeeModule() {
     this.coreService.displayToast({
       type: 'success',
       message: 'Welcome to Indent Management Rajender'
-    })
+    });
   }
 
   welcomeToast() {
