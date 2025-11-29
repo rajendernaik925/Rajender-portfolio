@@ -1,0 +1,62 @@
+<div class="container-fluid p-2 text-white scroll-container" style="background:#0e0e0e; min-height:100vh;">
+
+  <div class="row align-items-center">
+
+    <!-- Left Section -->
+    <div class="col-md-8">
+      <h5 class="text-secondary">Hello, I am</h5>
+      <h3 class="fw-bold">Mr. Rajender Bhukya</h3>
+      <h1 class="fw-bold" style="color:#ff7a00; font-size:50px;">Angular Developer</h1>
+      <p class="text-secondary mt-3">
+        I am a passionate Angular developer with experience building dynamic, responsive, and user-friendly web applications. I focus on clean code, best practices, and creating seamless user experiences.
+      </p>
+
+      <!-- Skills -->
+      <div class="mt-2">
+        <h5 class="fw-bold text-white">Skills</h5>
+        <div class="d-flex flex-wrap gap-2 mt-2">
+          <span class="badge text-dark" style="background:#ff7a00;">Angular</span>
+          <span class="badge text-dark" style="background:#ff7a00;">TypeScript</span>
+          <span class="badge text-dark" style="background:#ff7a00;">HTML & CSS</span>
+          <span class="badge text-dark" style="background:#ff7a00;">Bootstrap</span>
+          <span class="badge text-dark" style="background:#ff7a00;">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="row mt-2 g-3">
+        <div class="col-4">
+          <div class="p-3 rounded" style="background:#1c1c1c;">
+            <h3 class="text-center" style="color:#ff7a00;">2+</h3>
+            <p class="text-center m-0">Years Experience</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="p-3 rounded" style="background:#1c1c1c;">
+            <h3 class="text-center" style="color:#ff7a00;">20+</h3>
+            <p class="text-center m-0">Projects Done</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="p-3 rounded" style="background:#1c1c1c;">
+            <h3 class="text-center" style="color:#ff7a00;">80+</h3>
+            <p class="text-center m-0">Happy Clients</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="mt-4">
+        <button class="btn px-4 py-2 me-2" style="background:#ff7a00; color:white;">Hire Me</button>
+        <button class="btn btn-outline-light px-4 py-2" (click)="downloadResume()">Download CV</button>
+      </div>
+
+    </div>
+
+    <!-- Right Section -->
+    <div class="col-md-4 text-center">
+      <img [src]="logo" class="img-fluid rounded-pill" style="filter:grayscale(100%); max-width:350px;" />
+    </div>
+  </div>
+
+</div>

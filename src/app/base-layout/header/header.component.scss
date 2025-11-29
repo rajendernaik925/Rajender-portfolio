@@ -1,0 +1,30 @@
+.navbar {
+  background: #111;
+}
+
+.nav-link {
+  color: #ccc !important;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+.nav-link.active {
+  color: orange !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: orange !important;
+}
+
+.hire-btn {
+  background: orange;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+.text-orange {
+  color: orange !important;
+}

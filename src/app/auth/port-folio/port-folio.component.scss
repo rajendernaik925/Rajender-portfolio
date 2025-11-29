@@ -1,0 +1,29 @@
+.scroll-container {
+  max-height: calc(100vh - 75px);
+  overflow-y: auto;
+   scrollbar-width: none;     // Firefox
+  -ms-overflow-style: none;  // IE & Edge
+
+  &::-webkit-scrollbar {
+    display: none;           // Chrome, Safari
+  }
+}
+
+.card {
+  background: #1c1c1c;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 122, 0, 0.4);
+}
+
+.card-title {
+  color: #ff7a00;
+}
+
+.card-text {
+  color: #ccc;
+}
