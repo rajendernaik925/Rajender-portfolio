@@ -35,7 +35,7 @@ export class HeaderComponent implements OnInit {
   }
 
   hireMe() {
-    const phoneNumber = "7993344561";
+    const phoneNumber = "6303064263";
     const message = `Hello Rajender,
 
 I visited your portfolio and I must say that I am genuinely impressed with your skills, projects, and overall presentation. Your experience, attention to detail, and the applications you’ve built clearly reflect strong technical ability and dedication.
